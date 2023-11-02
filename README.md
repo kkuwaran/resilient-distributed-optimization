@@ -18,7 +18,7 @@ We conduct comprehensive experiments to evaluate the performance of each algorit
 To gain insights into the behavior of these algorithms, we provide plots that showcase their dependency on the constant step-size. These plots specifically illustrate the following key quantities:
 - **Convergence Rate:** How quickly do the algorithms converge to a region containing the optimal solution?
 - **Convergence Radius:** What is the reach of the algorithms in terms of convergence?
-- **Approximate Consensus Diameter:** How closely do the algorithms approach a consensus state?
+- **Approximate Consensus Diameter:** To what extent do the states of regular agents converge?
 
 ### Folder Structure
 - Folder **modules**
