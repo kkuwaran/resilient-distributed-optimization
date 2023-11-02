@@ -1,23 +1,24 @@
 # resilient-distributed-optimization
 ### Resilient Distributed Optimization Algorithms/Algorithmic Framework 
-In this repository, we focus on addressing Byzantine-resilient distributed optimization problems. Our work revolves around the implementation of the **RE**silient **D**istributed **GR**adient-descent **A**lgorithmic **F**ramework **(REDGRAF)** [1], which encompasses various resilient algorithms. These algorithms are designed to overcome Byzantine failures, ensuring robust distributed optimization.
-- Implemented Algorithms:
-  -  **Simultaneous Distance-MixMax Filtering Dynamics (SDMMFD)** [2, 3]
-  -  **Simultaneous Distance Filtering Dynamics (SDFD)** [2]
-  -  **Coordinate-wise Trimmed Mean (CWTM)** [4-9]
-  -  **Coordinate-wise Median (CWMed)** [4]
-  -  **Resilient Vector Optimization (RVO)** [10, 11]
+In this repository, we focus on addressing Byzantine-resilient distributed optimization problems. Our work revolves around the implementation of the **RE**silient **D**istributed **GR**adient-descent **A**lgorithmic **F**ramework **(REDGRAF)** [1], which encompasses various resilient algorithms. These algorithms are designed to overcome Byzantine failures, ensuring robust distributed optimization. 
+
+Implemented Algorithms:
+-  **Simultaneous Distance-MixMax Filtering Dynamics (SDMMFD)** [2, 3]
+-  **Simultaneous Distance Filtering Dynamics (SDFD)** [2]
+-  **Coordinate-wise Trimmed Mean (CWTM)** [4-9]
+-  **Coordinate-wise Median (CWMed)** [4]
+-  **Resilient Vector Optimization (RVO)** [10, 11]
 
 ### Experimentation and Analysis
-- We conduct comprehensive experiments to evaluate the performance of each algorithm. Our experiments include two key components:
-  - **Quadratic Functions Experiment:** We examine how these algorithms perform in optimizing distributed quadratic functions. This experiment helps us understand their convergence and efficiency in a controlled setting.
-  - **Banknote Authentication Experiment (Classification Task):** We delve into a real-world classification problem: authenticating banknotes. By applying our resilient algorithms to this task, we assess their effectiveness in solving practical optimization challenges.
+We conduct comprehensive experiments to evaluate the performance of each algorithm. Our experiments include two key components:
+- **Quadratic Functions Experiment:** We examine how these algorithms perform in optimizing distributed quadratic functions. This experiment helps us understand their convergence and efficiency in a controlled setting.
+- **Banknote Authentication Experiment (Classification Task):** We delve into a real-world classification problem: authenticating banknotes. By applying our resilient algorithms to this task, we assess their effectiveness in solving practical optimization challenges.
 
 ### Dependency Plots
-- To gain insights into the behavior of these algorithms, we provide plots that showcase their dependency on the constant step-size. These plots specifically illustrate the following key quantities:
-  - **Convergence Rate:** How quickly do the algorithms converge to a region containing the optimal solution?
-  - **Convergence Radius:** What is the reach of the algorithms in terms of convergence?
-  - **Approximate Consensus Diameter:** How closely do the algorithms approach a consensus state?
+To gain insights into the behavior of these algorithms, we provide plots that showcase their dependency on the constant step-size. These plots specifically illustrate the following key quantities:
+- **Convergence Rate:** How quickly do the algorithms converge to a region containing the optimal solution?
+- **Convergence Radius:** What is the reach of the algorithms in terms of convergence?
+- **Approximate Consensus Diameter:** How closely do the algorithms approach a consensus state?
 
 ### Folder Structure
 - Folder **modules**
