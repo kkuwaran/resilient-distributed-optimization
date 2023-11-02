@@ -1,37 +1,50 @@
 # resilient-distributed-optimization
 ### Resilient Distributed Optimization Algorithms/Algorithmic Framework 
-- Implement REsilient Distributed GRadient-descent Algorithmic Framework (REDGRAF) [1] including the following algorithms:
-  -  Simultaneous Distance-MixMax Filtering Dynamics (SDMMFD) [2, 3]
-  -  Simultaneous Distance Filtering Dynamics (SDFD) [2]
-  -  Coordinate-wise Trimmed Mean (CWTM) [4-9]
-  -  Resilient Vector Optimization (RVO) [10, 11]
+In this repository, we focus on addressing Byzantine-resilient distributed optimization problems. Our work revolves around the implementation of the **RE**silient **D**istributed **GR**adient-descent **A**lgorithmic **F**ramework **(REDGRAF)** [1], which encompasses various resilient algorithms. These algorithms are designed to overcome Byzantine failures, ensuring robust distributed optimization.
+- Implemented Algorithms:
+  -  **Simultaneous Distance-MixMax Filtering Dynamics (SDMMFD)** [2, 3]
+  -  **Simultaneous Distance Filtering Dynamics (SDFD)** [2]
+  -  **Coordinate-wise Trimmed Mean (CWTM)** [4-9]
+  -  **Coordinate-wise Median (CWMed)** [4]
+  -  **Resilient Vector Optimization (RVO)** [10, 11]
 
-### Files
-- Folder 'modules'
-  - main_script.py: the main script used to configure and run the experiments shown in [1]
-  - experiments.py: execute resilient algorithms, get results, and plot
-  - algorithmic_framework.py: implement REDGRAF
-  - resilient_algorithms.py: implement resilient algorithms
-  - adversaries.py: initialize Byzantine agents, and determine their behavior
-  - objective_functions.py: initialize (distributed) quadratic functions, and banknote authentication task
-  - topology_generation.py: initialize network topology
-  - logistic_regression.py: helping functions for Logistic Regression
-  - centerpoint.py: helping functions for executing RVO (from [11])
-  - dependency_plots.py: plot figures regarding the convergence rate, convergence radius, and consensus diameter shown in [1]
-- Folder 'figures'
-  - variables_dependency: store figures generated from dependency_plots.py
-  - exp_quadratic: store figures generated from running quadratic functions experiment
-  - exp_banknote: store figures generated from running banknote authentication experiment
-- Folder 'datasets'
-  - BankNote_Authentication.csv: store dataset used for banknote authentication task
-- Folder 'tests'
-  - algorithmic_framework_test.py: script for testing algorithmic_framework.py
-  - resilient_algorithms_test.py: script for testing resilient_algorithms.py
-  - adversaries_test.py: script for testing adversaries.py
-  - dataset_functions_test.py: script for testing DecentralizedDataset class in objective_functions.py
-  - quadratic_functions_test.py: script for testing DecentralizedQuadratic class in objective_functions.py
-  - topology_generation_test.py: script for testing topology_generation.py
-  - logistic_regression_test.py: script for testing logistic_regression.py
+### Experimentation and Analysis
+- We conduct comprehensive experiments to evaluate the performance of each algorithm. Our experiments include two key components:
+  - **Quadratic Functions Experiment:** We examine how these algorithms perform in optimizing distributed quadratic functions. This experiment helps us understand their convergence and efficiency in a controlled setting.
+  - **Banknote Authentication Experiment (Classification Task):** We delve into a real-world classification problem: authenticating banknotes. By applying our resilient algorithms to this task, we assess their effectiveness in solving practical optimization challenges.
+
+### Dependency Plots
+- To gain insights into the behavior of these algorithms, we provide plots that showcase their dependency on the constant step-size. These plots specifically illustrate the following key quantities:
+  - **Convergence Rate:** How quickly do the algorithms converge to a region containing the optimal solution?
+  - **Convergence Radius:** What is the reach of the algorithms in terms of convergence?
+  - **Approximate Consensus Diameter:** How closely do the algorithms approach a consensus state?
+
+### Folder Structure
+- Folder **modules**
+  - **main_script.py:** the main script used to configure and run the experiments shown in [1]
+  - **experiments.py:** execute resilient algorithms, get results, and plot
+  - **algorithmic_framework.py:** implement REDGRAF
+  - **resilient_algorithms.py:** implement resilient algorithms
+  - **adversaries.py:** initialize Byzantine agents, and determine their behavior
+  - **objective_functions.py:** initialize (distributed) quadratic functions, and banknote authentication task
+  - **topology_generation.py:** initialize network topology
+  - **logistic_regression.py:** helping functions for Logistic Regression
+  - **centerpoint.py:** helping functions for executing RVO (from [11])
+  - **dependency_plots.py:** plot figures regarding the convergence rate, convergence radius, and consensus diameter shown in [1]
+- Folder **figures**
+  - **variables_dependency:** store figures generated from dependency_plots.py
+  - **exp_quadratic:** store figures generated from running quadratic functions experiment
+  - **exp_banknote:** store figures generated from running banknote authentication experiment
+- Folder **datasets**
+  - **BankNote_Authentication.csv:** store dataset used for banknote authentication task
+- Folder **tests**
+  - **algorithmic_framework_test.py:** script for testing algorithmic_framework.py
+  - **resilient_algorithms_test.py:** script for testing resilient_algorithms.py
+  - **adversaries_test.py:** script for testing adversaries.py
+  - **dataset_functions_test.py:** script for testing DecentralizedDataset class in objective_functions.py
+  - **quadratic_functions_test.py:** script for testing DecentralizedQuadratic class in objective_functions.py
+  - **topology_generation_test.py:** script for testing topology_generation.py
+  - **logistic_regression_test.py:** script for testing logistic_regression.py
 
 ### References
 #### Our Relevant Works
