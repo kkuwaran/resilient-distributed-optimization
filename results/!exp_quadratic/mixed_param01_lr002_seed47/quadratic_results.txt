@@ -1,0 +1,50 @@
+List of Advesarial Nodes: [22, 4]
+List of Algorithms: ['SDMMFD', 'SDFD', 'CWTM', 'RVO']
+
+========== Metric: dist_min ==========
+Benchmark Value: 0.1828643486759442
+Mean of Final Values (for each algorithm): [0.162  0.0867 0.0457 0.095 ]
+
+========== Metric: opt_gap ==========
+Benchmark Value: 0.031840726307037534
+Mean of Final Values (for each algorithm): [0.0191 0.0053 0.0015 0.0065]
+
+========== Metric: cons_diam ==========
+Benchmark Value: None
+Mean of Final Values (for each algorithm): [0.1758 0.149  0.1351 0.2768]
+
+========== Metric: train_acc ==========
+Benchmark Value: None
+Mean of Final Values (for each algorithm): None
+
+========== Metric: train_acc_avg ==========
+Benchmark Value: None
+Mean of Final Values (for each algorithm): None
+
+========== Metric: train_acc_w ==========
+Benchmark Value: None
+Mean of Final Values (for each algorithm): None
+
+========== Metric: test_acc ==========
+Benchmark Value: None
+Mean of Final Values (for each algorithm): None
+
+========== Metric: test_acc_avg ==========
+Benchmark Value: None
+Mean of Final Values (for each algorithm): None
+
+========== Metric: test_acc_w ==========
+Benchmark Value: None
+Mean of Final Values (for each algorithm): None
+
+========== Metric: argmin_train ==========
+Adv Neighbor Flags for worst-10 (SDMMFD): [True, True, True, True, True, True, True, True, True, True]
+Adv Neighbor Flags for worst-10 (SDFD): [True, True, True, True, True, True, True, True, True, True]
+Adv Neighbor Flags for worst-10 (CWTM): [True, True, True, True, True, True, True, True, True, True]
+Adv Neighbor Flags for worst-10 (RVO): [True, True, True, True, True, True, True, True, True, True]
+
+========== Metric: argmin_test ==========
+Adv Neighbor Flags for worst-10 (SDMMFD): [True, True, True, True, True, True, True, True, True, True]
+Adv Neighbor Flags for worst-10 (SDFD): [True, True, True, True, True, True, True, True, True, True]
+Adv Neighbor Flags for worst-10 (CWTM): [True, True, True, True, True, True, True, True, True, True]
+Adv Neighbor Flags for worst-10 (RVO): [True, True, True, True, True, True, True, True, True, True]

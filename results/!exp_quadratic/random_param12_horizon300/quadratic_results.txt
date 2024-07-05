@@ -1,0 +1,14 @@
+List of Advesarial Nodes: [26, 34]
+List of Algorithms: ['SDMMFD', 'SDFD', 'CWTM', 'RVO']
+
+========== Metric: dist_min ==========
+Benchmark Value: 0.22414620967850374
+Mean of Final Values (for each algorithm): [0.0388 0.0395 0.016  0.0819]
+
+========== Metric: opt_gap ==========
+Benchmark Value: 0.038783112799432445
+Mean of Final Values (for each algorithm): [0.0015 0.0019 0.0002 0.0042]
+
+========== Metric: cons_diam ==========
+Benchmark Value: None
+Mean of Final Values (for each algorithm): [0.311  0.2628 0.2714 0.5682]
