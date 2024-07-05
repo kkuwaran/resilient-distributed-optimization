@@ -1,0 +1,51 @@
+List of Advesarial Nodes: [52, 67, 71, 14, 23, 50, 30, 40, 3, 32]
+List of Algorithms: ['DGD', 'R-SDMMFD', 'SDFD', 'CWTM']
+Regularization Parameter (1/C_optimal): 3.1623
+
+========== Metric: dist_min ==========
+Benchmark Value: 4.202030209765376
+Mean of Final Values (for each algorithm): [8.2443 7.2381 7.9433 7.4318]
+
+========== Metric: opt_gap ==========
+Benchmark Value: 13.686726384087248
+Mean of Final Values (for each algorithm): [112.3518  71.6203  92.0943  73.6051]
+
+========== Metric: cons_diam ==========
+Benchmark Value: None
+Mean of Final Values (for each algorithm): [0.3262 0.2944 0.2827 0.2743]
+
+========== Metric: train_acc ==========
+Benchmark Value: 98.7
+Mean of Final Values (for each algorithm): [91.2167 90.4667 90.8333 90.3667]
+
+========== Metric: train_acc_avg ==========
+Benchmark Value: 98.7
+Mean of Final Values (for each algorithm): [90.5597 90.4226 90.4262 90.2623]
+
+========== Metric: train_acc_w ==========
+Benchmark Value: None
+Mean of Final Values (for each algorithm): [86.0667 89.8333 88.2167 89.5333]
+
+========== Metric: test_acc ==========
+Benchmark Value: 99.19354838709677
+Mean of Final Values (for each algorithm): [97.3118 96.6846 96.9086 96.6398]
+
+========== Metric: test_acc_avg ==========
+Benchmark Value: 99.19354838709677
+Mean of Final Values (for each algorithm): [96.7018 96.5199 96.4268 96.6046]
+
+========== Metric: test_acc_w ==========
+Benchmark Value: None
+Mean of Final Values (for each algorithm): [91.0394 95.2957 93.4588 95.4301]
+
+========== Metric: argmin_train ==========
+Adv Neighbor Flags for worst-10 (DGD): [True, True, True, True, True, True, True, True, True, True]
+Adv Neighbor Flags for worst-10 (R-SDMMFD): [True, True, True, True, True, True, True, True, True, True]
+Adv Neighbor Flags for worst-10 (SDFD): [True, True, True, True, True, True, True, True, True, True]
+Adv Neighbor Flags for worst-10 (CWTM): [True, True, True, True, True, True, True, True, True, True]
+
+========== Metric: argmin_test ==========
+Adv Neighbor Flags for worst-10 (DGD): [True, True, True, True, True, True, True, True, True, True]
+Adv Neighbor Flags for worst-10 (R-SDMMFD): [True, True, True, True, True, True, True, True, True, True]
+Adv Neighbor Flags for worst-10 (SDFD): [True, True, True, True, True, True, True, True, True, True]
+Adv Neighbor Flags for worst-10 (CWTM): [True, True, True, True, True, True, True, True, True, True]
