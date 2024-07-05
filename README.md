@@ -13,8 +13,8 @@ Implemented Algorithms:
 ### Experimentation and Analysis
 We conduct comprehensive experiments to evaluate the performance of each algorithm. Our experiments include three key components:
 - **Quadratic Functions Experiment:** We evaluate how these algorithms perform in optimizing distributed quadratic functions, providing insights into their convergence and efficiency in a controlled environment.
-- **Banknote Authentication Experiment (Binary Classification Task):** We apply resilient algorithms to a real-world low-dimensional classification problem—authenticating banknotes. This experiment assesses their effectiveness in tackling small-scale optimization challenges.
-- **CIFAR-10 Classification Experiment (Multi-Class Classification Task):** We address a high-dimensional classification problem by classifying images from the CIFAR-10 dataset. This experiment evaluates the algorithms' effectiveness in handling large-scale optimization challenges.
+- **Banknote Authentication Experiment (Binary Classification Task):** We apply resilient algorithms to a real-world low-dimensional classification problem—authenticating banknotes. This experiment assesses their effectiveness in tackling small-scale machine learning challenges.
+- **CIFAR-10 Classification Experiment (Multi-Class Classification Task):** We address a high-dimensional classification problem by classifying images from the CIFAR-10 dataset. This experiment evaluates the algorithms' effectiveness in handling large-scale machine learning challenges.
 
 ### Dependency Plots
 To gain insights into the behavior of these algorithms, we provide plots that showcase their dependency on the constant step-size. These plots specifically illustrate the following key metrics:
@@ -38,7 +38,7 @@ To gain insights into the behavior of these algorithms, we provide plots that sh
   - **topology_generation.py:** Initializes network topology.
   - **dependency_plots.py:** Plots variable dependencies considered in the theoretical analysis in [1].
   - Folder **utilities:** Contains external subroutine functions.
-- Folder **figures**
+- Folder **results**
   - **!exp_quadratic:** Stores main results and figures from quadratic functions experiments.
   - **!exp_banknote:** Stores main results and figures from banknote authentication experiments.
   - **!exp_cifar10:** Stores main results and figures from CIFAR-10 experiments.
