@@ -1,0 +1,49 @@
+List of Advesarial Nodes: [9, 52]
+List of Algorithms: ['SDMMFD', 'SDFD', 'CWTM']
+Regularization Parameter (1/C_optimal): 0.0316
+
+========== Metric: dist_min ==========
+Benchmark Value: None
+Mean of Final Values (for each algorithm): [11.6899 11.8261 11.7886]
+
+========== Metric: opt_gap ==========
+Benchmark Value: None
+Mean of Final Values (for each algorithm): [62.5861 51.561  50.7764]
+
+========== Metric: cons_diam ==========
+Benchmark Value: None
+Mean of Final Values (for each algorithm): [0.2701 0.2327 0.2223]
+
+========== Metric: train_acc ==========
+Benchmark Value: 99.1
+Mean of Final Values (for each algorithm): [96.9667 97.9    97.9167]
+
+========== Metric: train_acc_avg ==========
+Benchmark Value: 99.1
+Mean of Final Values (for each algorithm): [96.8957 97.8975 97.9123]
+
+========== Metric: train_acc_w ==========
+Benchmark Value: None
+Mean of Final Values (for each algorithm): [95.75   96.8167 96.9667]
+
+========== Metric: test_acc ==========
+Benchmark Value: 99.19354838709677
+Mean of Final Values (for each algorithm): [97.1774 98.2527 98.3423]
+
+========== Metric: test_acc_avg ==========
+Benchmark Value: 99.19354838709677
+Mean of Final Values (for each algorithm): [97.113  98.2017 98.3012]
+
+========== Metric: test_acc_w ==========
+Benchmark Value: None
+Mean of Final Values (for each algorithm): [95.4749 97.3118 97.5806]
+
+========== Metric: argmin_train ==========
+Adv Neighbor Flags for worst-10 (SDMMFD): [True, True, True, True, False, True, True, True, True, True]
+Adv Neighbor Flags for worst-10 (SDFD): [True, True, True, True, True, True, True, True, True, True]
+Adv Neighbor Flags for worst-10 (CWTM): [True, True, True, True, True, True, True, False, True, True]
+
+========== Metric: argmin_test ==========
+Adv Neighbor Flags for worst-10 (SDMMFD): [True, True, True, True, True, True, True, True, True, True]
+Adv Neighbor Flags for worst-10 (SDFD): [True, True, True, True, True, True, True, False, True, True]
+Adv Neighbor Flags for worst-10 (CWTM): [True, True, True, True, True, True, True, True, False, True]
